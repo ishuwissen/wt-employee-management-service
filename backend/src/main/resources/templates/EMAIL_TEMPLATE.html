@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+	<title th:remove="all">Template for HTML email</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+</head>
+<body>
+<p>
+	Hi, <span th:text="${name}"></span>
+</p>
+
+<div th style=" background-image:url(https://img.freepik.com/free-vector/happy-birthday-flags-confetti-card_1017-32699.jpg?w=1380&t=st=1663260412~exp=1663261012~hmac=e36dbc30f19aa281a66943a1693c99ce1cdd556aef18e98f3bc96b31d2c08c2a);
+		  " data-th-style="|background-position: center; background-repeat: no-repeat; background-size: cover; background-color: #ccc;text-align: center;
+		  background-image: url(https://img.freepik.com/free-vector/happy-birthday-flags-confetti-card_1017-32699.jpg?w=1380&t=st=1663260412~exp=1663261012~hmac=e36dbc30f19aa281a66943a1693c99ce1cdd556aef18e98f3bc96b31d2c08c2a);|"
+><br><br>
+	<br><br>
+	<br><br>
+	<br><br><br><br>
+	<br><br>
+	<br><br>
+	<br><br>
+	<br><br>
+	<span th:text="${name}"></span>
+	<br><br>
+	<br><br>
+</div>
+
+<p>
+	Regards, <br/>
+	<em>Wissen Technology</em>
+</p>
+</body>
+</html>
